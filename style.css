@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(213,225,239);
+    font-family: 'Outfit';
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    height: 467px;
+    width: 290px;
+    border-radius: 16px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    box-shadow: 0px 10px 8px 10px hsl(220, 15%, 55%);
+    padding: 15px;
+}
+
+.qr-code-img {
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+    font-size: 22px;
+}
+
+p {
+    color: rgb(164,167,173);
+    text-align: center;
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+/* XS */
+
+@media (min-width: 320px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 390px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 475px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 480px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+/* sm */
+
+@media (min-width: 640px) {
+    main {
+        max-width: 60vw;
+        font-size: 0.8em;
+    }
+}
+
+/* md */
+
+@media (min-width: 680px) {
+    main {
+        max-width: 30vw;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        max-width: 30vw;
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        max-width: 35vw;
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 900px) {
+    main {
+        max-width: 30vw;
+        font-size: 0.8em;
+    }
+}
+
+/* xL */
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 25vw;
+        font-size: 0.9em;
+    }
+}
+
+/* 2xL */
+
+@media (min-width: 1280px) {
+    main {
+        max-width: 25vw;
+        font-size: 1.1em;
+    }
+}
+
+
+
+
